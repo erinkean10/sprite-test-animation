@@ -1,0 +1,26 @@
+$icon-layout:horizontal;
+@import "icon/*.png";
+@include all-icon-sprites;
+
+
+    .icon-animation {
+        width:"714px";
+        height:"768px";
+        background:url("../img/icon-s1bd864a61b.png") left center;
+        animation: play 2s steps(14) infinite;
+    }//icon
+div {
+    display:block;
+}
+header {
+    font-family: cursive;
+    text-align: center;
+}
+
+
+//width*number of steps for background position
+@keyframes play {
+    100% {
+        background-position: -9996px center;
+    }
+}
