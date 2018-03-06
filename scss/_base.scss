@@ -4,19 +4,22 @@ $icon-layout:horizontal;
 
 
     .icon-animation {
-        width:"714px";
-        height:"768px";
+        width:714px;
+        height:768px;
         background:url("../img/icon-s1bd864a61b.png") left center;
         animation: play 2s steps(14) infinite;
     }//icon
 div {
     display:block;
+    margin: 0 auto;
 }
 header {
-    font-family: cursive;
+    font-family: harryp;
     text-align: center;
 }
-
+.simple-linear {
+    background: linear-gradient($hpdarkred,$hpred,$hporange,$hpyellow);
+}
 
 //width*number of steps for background position
 @keyframes play {

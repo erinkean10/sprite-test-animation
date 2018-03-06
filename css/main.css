@@ -60,19 +60,24 @@
 }
 
 .icon-animation {
-  width: "714px";
-  height: "768px";
+  width: 714px;
+  height: 768px;
   background: url("../img/icon-s1bd864a61b.png") left center;
   animation: play 2s steps(14) infinite;
 }
 
 div {
   display: block;
+  margin: 0 auto;
 }
 
 header {
-  font-family: cursive;
+  font-family: harryp;
   text-align: center;
+}
+
+.simple-linear {
+  background: linear-gradient(#5b0104, #c30712, #f97e23, #fda629);
 }
 
 @keyframes play {
