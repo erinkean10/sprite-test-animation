@@ -16,6 +16,7 @@ div {
 header {
     font-family: harryp;
     text-align: center;
+    font-size: 50px;
 }
 .simple-linear {
     background: linear-gradient($hpdarkred,$hpred,$hporange,$hpyellow);
@@ -27,3 +28,28 @@ header {
         background-position: -9996px center;
     }
 }
+
+nav {
+    @include box;
+    text-align: center;
+    ul {
+        li{ 
+            list-style: none;
+            display: inline-block;
+            padding-right: 30px;
+            a{
+                font-family: harryp;
+                font-size: 35px;
+                padding: 8px;
+            }//a
+            a:link, a:visited {
+                color: $hpdarkred;
+            }
+            a:hover, a:active {
+                background: $hporange;
+                color: $hpyellow;
+                
+            }
+        }//li
+    }//ul
+}//nav

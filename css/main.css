@@ -74,6 +74,7 @@ div {
 header {
   font-family: harryp;
   text-align: center;
+  font-size: 50px;
 }
 
 .simple-linear {
@@ -84,4 +85,26 @@ header {
   100% {
     background-position: -9996px center;
   }
+}
+nav {
+  border: solid 2px #FDA629;
+  border-radius: 25px;
+  text-align: center;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 30px;
+}
+nav ul li a {
+  font-family: harryp;
+  font-size: 35px;
+  padding: 8px;
+}
+nav ul li a:link, nav ul li a:visited {
+  color: #5B0104;
+}
+nav ul li a:hover, nav ul li a:active {
+  background: #F97E23;
+  color: #FDA629;
 }
